@@ -1,0 +1,41 @@
+.footer {
+  margin-top: 133px;
+  height: 374px;
+  border-top: 2px solid rgba(156, 105, 226, 0.2);
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 121px;
+}
+
+.footer__text {
+  margin-top: 100px;
+}
+
+.footer__main-info {
+  margin: 20px 0 85px 0;
+}
+
+.footer_page-rights {
+  font-family: "Avenir", "sans-serif";
+  font-size: 12px;
+  line-height: 180%;
+  color: #212353;
+}
+
+.footer__learn-more {
+  margin-right: 30px;
+  background: #f063b8;
+}
+
+.footer_button-message {
+  margin-top: 90px;
+}

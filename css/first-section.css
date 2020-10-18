@@ -1,0 +1,23 @@
+.first-section {
+  background: url("/images/save-your-data.svg") no-repeat left 68% top 90px;
+  height: 564px;
+}
+
+.save-data__title {
+  font-family: "Helvetica", "sans-serif";
+  font-weight: 700;
+  font-size: 5em;
+  line-height: 110%;
+  color: #212353;
+  width: 645px;
+  margin-top: 130px;
+}
+
+.save-data__mainifo {
+  width: 380px;
+  margin: 50px 0;
+}
+
+.save-data__button {
+  background: #9c69e2;
+}
