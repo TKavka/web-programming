@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Avenir";
+  src: url("/fonts/Avenir-Roman.ttf");
+}
+
+body {
+  background: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%);
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.learn-more-button {
+  border-radius: 50px;
+}
+
+.learn-more-button__text {
+  font-family: "Avenir", "sans-serif";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 160%;
+  padding: 16px 37px;
+  color: #ffffff;
+}
+
+.global-main-info {
+  font-family: "Avenir", "sans-serif";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4b5d68;
+}
+
+.global-title {
+  font-family: "Helvetica", "sans-serif";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  color: #212353;
+}

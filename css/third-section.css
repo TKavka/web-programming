@@ -1,0 +1,49 @@
+.third-section {
+  margin-top: 150px;
+}
+
+.third-section__title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.third-section__main-info {
+  width: 584px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.third-section__blocks {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.third-section__block__title {
+  font-family: "Helvetica", "sans-serif";
+  font-size: 24px;
+  line-height: 130%;
+  color: #212353;
+}
+
+.third-section__block__info {
+  margin-top: 30px;
+  font-family: "Avenir", "sans-serif";
+  font-size: 16px;
+  line-height: 160%;
+  color: #4b5d68;
+}
+
+.third-section__block {
+  position: relative;
+  margin-top: 50px;
+}
+
+.third-section__block__text {
+  position: absolute;
+  width: 220px;
+  bottom: 90px;
+  left: 265px;
+  height: 220px;
+}
