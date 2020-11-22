@@ -26,7 +26,7 @@
 
 .footer_page-rights {
   font-family: "Avenir", "sans-serif";
-  font-size: 12px;
+  font-size: 0.75em;
   line-height: 180%;
   color: #212353;
 }
@@ -34,6 +34,16 @@
 .footer__learn-more {
   margin-right: 30px;
   background: #f063b8;
+  transition: 0.5s;
+}
+
+.footer__learn-more:hover {
+  transform: rotate(360deg);
+  background-color: #9c69e2;
+}
+
+.footer__request-demo-text:after {
+  margin-left: 10px;
 }
 
 .footer_button-message {

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>First website lab 1</title>
+    <title>First website lab 2</title>
 
     <link rel="stylesheet" href="/css/reset_style.css" />
     <link rel="stylesheet" href="/css/normalize.min.css" />
@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="/css/third-section.css" />
     <link rel="stylesheet" href="/css/footer.css" />
 
-    <!-- <link rel="stylesheet" href="/css/media-queries.css" /> -->
+    <link rel="stylesheet" href="/css/media-queries.css" />
 
     <link
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap"
@@ -25,27 +25,35 @@
   <body>
     <header class="header">
       <div class="container header__container">
-        <nav class="header__nav">
+        <div class="header__menu" onclick="toggleMenu()">
+          <img src="/images/menu.svg" alt="hamburger" />
+        </div>
+
+        <nav id="nav-links" class="header__nav">
           <div class="header__logo">
-            <img src="/images/header-logo.svg" alt="logo" />
+            <img class="logo" src="/images/header-logo.svg" alt="logo" />
           </div>
           <ul>
             <li class="header__nav-item">
-              <a href="" class="header__nav-link">About</a>
+              <a href="#" class="header__nav-link link-hover-border">About</a>
             </li>
             <li class="header__nav-item">
-              <a href="" class="header__nav-link">Help</a>
+              <a href="#" class="header__nav-link link-hover-border">Help</a>
             </li>
             <li class="header__nav-item">
-              <a href="" class="header__nav-link">Features</a>
+              <a href="#" class="header__nav-link link-hover-border"
+                >Features</a
+              >
             </li>
             <li class="header__nav-item">
-              <a href="" class="header__nav-link">Signup</a>
+              <a href="#" class="header__nav-link link-hover-border">Signup</a>
             </li>
           </ul>
         </nav>
-        <button class="request-demo-button">
-          <div class="request-demo-text">Request Demo</div>
+        <button class="header__request-demo-button request-demo-button">
+          <div class="header__request-demo-text request-demo-text">
+            Request Demo
+          </div>
         </button>
       </div>
     </header>
@@ -68,7 +76,11 @@
 
     <section class="second-section">
       <div class="container second-section__content">
-        <img src="/images/high-level-data-img.svg" alt="high-level-data-img" />
+        <img
+          class="high-level-img"
+          src="/images/high-level-data-img.svg"
+          alt="high-level-data-img"
+        />
         <div class="second-section__text">
           <div class="second-section__title global-title">
             We are a high-level data storage bank
@@ -94,7 +106,11 @@
 
         <div class="third-section__blocks">
           <div class="third-section__block">
-            <img src="/images/search-data.svg" alt="" />
+            <img
+              class="background-blocks"
+              src="/images/search-data.svg"
+              alt=""
+            />
             <div class="third-section__block__text">
               <div class="third-section__block__title">Search Data</div>
               <div class="third-section__block__info">
@@ -106,7 +122,11 @@
           </div>
 
           <div class="third-section__block">
-            <img src="/images/24-hours-access.svg" alt="24-hours-access" />
+            <img
+              class="background-blocks"
+              src="/images/24-hours-access.svg"
+              alt="24-hours-access"
+            />
             <div class="third-section__block__text">
               <div class="third-section__block__title">24 Hours Access</div>
               <div class="third-section__block__info">
@@ -118,7 +138,7 @@
           </div>
 
           <div class="third-section__block">
-            <img src="/images/print-out.svg" alt="" />
+            <img class="background-blocks" src="/images/print-out.svg" alt="" />
             <div class="third-section__block__text">
               <div class="third-section__block__title">Print out</div>
               <div class="third-section__block__info">
@@ -129,7 +149,11 @@
           </div>
 
           <div class="third-section__block">
-            <img src="/images/security-code.svg" alt="" />
+            <img
+              class="background-blocks"
+              src="/images/security-code.svg"
+              alt=""
+            />
             <div class="third-section__block__text">
               <div class="third-section__block__title">Security Code</div>
               <div class="third-section__block__info">
@@ -156,17 +180,20 @@
           </div>
         </div>
         <div class="footer__buttons">
-          <div>
+          <div class="footer__buttons-upper">
             <button class="footer__learn-more learn-more-button">
               <div class="learn-more-button__text">Learn more</div>
             </button>
             <button class="request-demo-button">
-              <div class="request-demo-text">Request Demo</div>
+              <div class="footer__request-demo-text request-demo-text">
+                Request Demo
+              </div>
             </button>
           </div>
           <div class="footer_button-message">
             <a href="#">
               <img
+                class="footer-msg-button"
                 src="/images/footer-msg-button.svg"
                 alt="footer-message-button"
               />
@@ -175,5 +202,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="/js/main.js"></script>
   </body>
 </html>
