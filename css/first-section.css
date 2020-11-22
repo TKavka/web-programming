@@ -1,6 +1,16 @@
 .first-section {
-  background: url("/images/save-your-data.svg") no-repeat left 68% top 90px;
+  background: url("/images/save-your-data.svg") no-repeat left 75% top 90px;
   height: 564px;
+}
+
+.save-data__button {
+  background: #9c69e2;
+  transition: 0.5s;
+}
+
+.save-data__button:hover {
+  transform: rotate(360deg);
+  background-color: #f063b8;
 }
 
 .save-data__title {
@@ -16,8 +26,4 @@
 .save-data__mainifo {
   width: 380px;
   margin: 50px 0;
-}
-
-.save-data__button {
-  background: #9c69e2;
 }
